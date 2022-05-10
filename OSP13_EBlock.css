@@ -1,0 +1,30 @@
+/* OSP13 EBlock / Rev A22510-1 */
+/* EJI Nia [HEJEJN] / AIT DBAD 1.1 */
+
+/* 本CSS將屏蔽大部分非中文、日文及韓文字元 */
+/* 適用於CSS聊天室：將本文件粘貼至OBS至CSS欄即可使用 */
+
+@font-face {
+  font-family: 'Redacted';
+  src: url(https://fonts.gstatic.com/s/redacted/v5/Z9XVDmdRShme2O_7aLTZ6Ow.woff2) format('woff2');
+	unicode-range: U+002D-002F, U+0041-005A, U+0061-007A, U+00C0-02AF, U+0500-1FFF, U+FB00-10800;
+}
+
+#author-photo {
+	position: relative;
+}
+
+#author-photo::after {
+	content: '';
+	display: block; position: absolute; top: 0;
+	z-index: 1000; width: 100%; height: 100%;
+	background: url("https://cdn-icons-png.flaticon.com/512/7439/7439488.png") center / 100% white;
+  /* 你可透過轉換以上圖片URL以轉換圖片 */
+  
+  /* 或透過移除下行之 /* */ 以使用單一顏色 */
+  /* background-color: white; */
+}
+ 
+* {
+	font-family: 'Redacted' !important;
+}
