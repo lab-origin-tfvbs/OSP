@@ -2,7 +2,7 @@
 /* EJI Nia [HEJEJN] / AIT DBAD 1.1 */
 
 /* 本CSS將屏蔽大部分非中文、日文及韓文字元 */
-/* 適用於CSS聊天室：將本文件粘貼至OBS至CSS欄即可使用 */
+/* 適用於CSS聊天室：將本文件粘貼至OBS之CSS欄即可使用 */
 
 @font-face {
   font-family: 'Redacted';
@@ -21,7 +21,7 @@
 	background: url("https://cdn-icons-png.flaticon.com/512/7439/7439488.png") center / 100% white;
   /* 你可透過轉換以上圖片URL以轉換圖片 */
   
-  /* 或透過移除下行之 /* */ 以使用單一顏色 */
+  /* 或透過移除下行之 /* */ /* 以使用單一顏色 */
   /* background-color: white; */
 }
  
