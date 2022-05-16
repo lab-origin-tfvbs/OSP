@@ -1,0 +1,21 @@
+/* OSP16 Jitbit Fullscreen / Rev A22517-1 */
+/* EJI Nia - H-EJ-EJN / AIT DBAD 1.1 */
+
+/* To be used with Jitbit Screensharing Utility */
+/* https://www.jitbit.com/screensharing/ */
+
+
+body *, #header .buttons {
+  overflow: hidden;
+  display: none;
+}
+
+div#header, div#header div, div#header video {
+  background: none;
+  display: block;
+}
+
+div#header video {
+position: absolute;
+top: 0; left: 0;
+}
