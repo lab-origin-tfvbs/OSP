@@ -8,7 +8,7 @@ Taking your first order!
 Demo Project - Random Names Picker
 with Completed answers
 
-EJI Nia, 0.0.3+A22831
+EJI Nia, 0.0.4+A22831
 ISM and EduX Lab, Lab Origin
 Released under the SIIF 33 License
 AIT ID: D-EJ-ORG-OSP-202
@@ -584,13 +584,14 @@ print("\n", "Section 7.1.2 - While loop")
 
 # ↓ Try it out. It should not take more than 10 lines. ↓
 def ask_list():
-    return list(iter(input, ""))
-
-
-
-
-
-
+    names = []
+    while True:
+        name = input()
+        if name != "":
+            break
+        names = names + [name, ]
+    return names
+        
 
 # ↑ You shouldn't go across here. ↑
 
