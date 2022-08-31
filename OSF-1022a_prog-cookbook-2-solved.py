@@ -8,7 +8,7 @@ Taking your first order!
 Demo Project - Random Names Picker
 with Completed answers
 
-EJI Nia, 0.0.4+A22831
+EJI Nia, 0.0.5+A22831
 ISM and EduX Lab, Lab Origin
 Released under the SIIF 33 License
 AIT ID: D-EJ-ORG-OSP-202
@@ -587,7 +587,7 @@ def ask_list():
     names = []
     while True:
         name = input()
-        if name != "":
+        if name == "":
             break
         names = names + [name, ]
     return names
