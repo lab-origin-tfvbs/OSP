@@ -389,8 +389,8 @@ print("Section 5.3.1 - Function Declaration")
 """
     Now, it's your time to finally make something.
         0. Try making the "ask_int" function,
-        1. that gets a "prompt",
-        2. Wait for the user to "input" a number with the "prompt",
+        1. that gets a "question",
+        2. Wait for the user to "input" a number with the "question",
         3. and return an "int"eger number.
     Hint: 0-1 is 1 line only, 2-3 are within 4 lines.
 """
@@ -404,7 +404,7 @@ print("Section 5.3.1 - Function Declaration")
 # ↑ You shouldn't go across here. ↑
 
 # --- Time to check your answers! ---
-if not run_function_pretest("ask_int", {"args": ("prompt", )}):
+if not run_function_pretest("ask_int", {"args": ("question", )}):
     print("\n", "[X] The first line isn't going quite well. Try again!")
 else:
     print("[i] Nice work on casing! Moving on...")
