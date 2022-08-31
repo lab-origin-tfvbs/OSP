@@ -7,7 +7,7 @@ Book 2 of 2
 Taking your first order!
 Demo Project - Random Names Picker
 
-EJI Nia, 0.0.1+A22829
+EJI Nia, 0.0.2+A22829
 ISM and EduX Lab, Lab Origin
 Released under the SIIF 33 License
 AIT ID: D-EJ-ORG-OSP-202
@@ -306,7 +306,7 @@ NUMBER_FROM_USER_INPUT = "2.1314"
 # Q5.2.1
 # Try changing the input string to a number format, then add 0.87 to it.
 # ↓ Try it out on this line.
-NUMBER_FROM_USER_INPUT = float(NUMBER_FROM_USER_INPUT) + 0.87
+
 # ↑ It should only take 1 line. Don't go over here.
 
 # --- Time to check your answers!
