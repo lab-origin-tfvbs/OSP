@@ -6,7 +6,7 @@
 Book 1 of 2
 Python Kitchen's Safety Training
 
-EJI Nia, 0.0.5+A22831
+EJI Nia, 0.0.6+A22831
 ISM and EduX Lab, Lab Origin
 Released under the SIIF 33 License
 AIT ID: D-EJ-ORG-OSP-201
@@ -217,7 +217,7 @@ DATA_TYPES = {
         # For float whole numbers, use .0, like 1.0
     "Text": {str: ("This is some text", 'These quotes too')},
         # Remember, text has to be quoted!
-    "Boolean": [True, False],
+    "Boolean": {bool: [True, False]},
     "Collections": {
         list: [1, 1, 2, 3, 5, 7],
         # A queue where you could easily visit one by one.
