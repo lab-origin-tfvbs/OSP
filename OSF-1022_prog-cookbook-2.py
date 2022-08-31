@@ -7,7 +7,7 @@ Book 2 of 2
 Taking your first order!
 Demo Project - Random Names Picker
 
-EJI Nia, 0.0.2+A22829
+EJI Nia, 0.0.3+A22829
 ISM and EduX Lab, Lab Origin
 Released under the SIIF 33 License
 AIT ID: D-EJ-ORG-OSP-202
@@ -371,11 +371,14 @@ def mixer(ingr1, ingr2):
     but keep it consistent across the WHOLE FILE,
     or the computer will not take it. (OCD at its finest.)
     """
+    
 # ↙ This is the gap that we're talking about.
-    return ingr1 + ingr2
+    bowl = ingr1 + ingr2
+    
     # Finally, when you are done processing,
     # return something back with the "return" keyword.
     # The pot will basically shut down at this point.
+    return bowl
 
 
 # --- 3. Profit!
